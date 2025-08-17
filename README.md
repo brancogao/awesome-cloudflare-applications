@@ -1,4 +1,4 @@
-# zhuima-awesome-cloudflare  
+# awesome-cloudflare  
 ⛅️ 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。
 
 ## 图床
@@ -14,6 +14,11 @@
 | [telegraph-Image](https://github.com/x-dr/telegraph-Image) | 一个图床。 |  | 维护中 |
 | [roim-picx](https://github.com/roimdev/roim-picx) | 基于 Cloudflare Pages 和 R2 实现的免费图床。 | | 维护中 |
 | [CloudFlare-ImgBed](https://github.com/MarSeventh/CloudFlare-ImgBed) | 基于 Cloudflare 和 Telegraph 的免费图床，本仓库基于  ，是原项目前端页面的重制版。开源、清晰、美观、动画丝滑、玩法多样！ |  | 维护中 |
+
+## 网站分析
+| 名称 | 特性 | 在线地址 | 状态 |
+| --- | --- | --- | --- |
+| counterscale | 简单的 Web 分析跟踪器和仪表板，类似 umami，可自行托管，低成本。 | https://github.com/benvinegar/counterscale | 维护中 |
 
 ## 邮箱
 
