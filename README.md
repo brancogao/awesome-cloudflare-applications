@@ -1,4 +1,4 @@
-# Awesome Cloudflare (2025 Updated)
+# Awesome Cloudflare (2026 Updated)
 
 ⛅️ 精选的 Cloudflare 工具、开源项目、指南、博客和其他资源列表。
 
