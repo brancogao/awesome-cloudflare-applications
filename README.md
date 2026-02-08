@@ -8,6 +8,7 @@ Cloudflare 的基础设施建立在庞大的全球网络之上，利用 **Anycas
 
 *   **全球触达**: 覆盖 **125+ 国家** 的 **330+ 城市**，95% 的互联网人口在 50ms 延迟圈内。
 *   **边缘计算**: 随着 AI 和 IoT 的爆发，**Workers AI** 将 GPU 推理能力部署到了网络边缘。
+*   **后量子安全**: Cloudflare 已在全局部署 **后量子加密** 标准，为未来的计算安全保驾护航。
 
 ## � 热门原型与实验 (Trending Prototypes)
 
@@ -62,6 +63,8 @@ Cloudflare 的基础设施建立在庞大的全球网络之上，利用 **Anycas
 | [Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) | **新标准**。Cloudflare 大力支持的 AI 代理连接标准 (MCP)，连接 AI 与数据的桥梁。 |  | 热门 |
 | [Supermemory](https://github.com/supermemoryai/supermemory) | **新颖**。基于 Cloudflare 构建的 AI 第二大脑，专注于速度和隐私的数据管理。 |  | 维护中 |
 | [Clawdbot](https://github.com/clawdbot/clawdbot) | 基于 Claude 的开源 AI Agent，展示了边缘 AI 的强大潜力。 |  | 维护中 |
+| [AI-Agent-Scaffold](https://github.com/cloudflare/agents-sdk) | **新热门**。用于构建在边缘运行的自主 AI 代理的框架。 |  | 官方 |
+| [grammY](https://github.com/grammyjs/grammY) | **推荐**。现代、类型安全的 Telegram 机器人框架，原生支持 Workers。 |  | 热门 |
 | [Firewall for AI](https://blog.cloudflare.com/firewall-for-ai/) | 专为 LLM 设计的安全层，防止模型被攻击或滥用。 |  | 官方 |
 
 ## 📊 网站分析
@@ -139,6 +142,9 @@ Cloudflare 的基础设施建立在庞大的全球网络之上，利用 **Anycas
 | 名称 | 特性 | 在线地址 | 状态 |
 | --- | --- | --- | --- |
 | [Hono](https://github.com/honojs/hono) | **核心框架**。目前开发 Cloudflare Workers 最流行的 Web 框架，轻量、超快，支持 TypeScript。 |  | 维护中 |
+| [Remix](https://remix.run/) | **标准框架**。全栈 Web 框架，利用 Web Fetch API 在边缘原生运行。 |  | 维护中 |
+| [itty-router](https://github.com/kwhitley/itty-router) | **极简**。专为 Workers 设计的零依赖微型路由。 |  | 维护中 |
+| [react-starter-kit](https://github.com/kriasoft/react-starter-kit) | **模版**。集成 Vite、Hono 和 TanStack Router 的 React 边缘启动器。 |  | 维护中 |
 | [nextflare](https://github.com/ccbikai/nextflare) | Next.js App Router 运行于 Cloudflare 的模版。 |  | 维护中 |
 | [ip-api](https://github.com/ccbikai/ip-api) | 快速搭建显示访客 IP 和地理位置的 API。 |  | 维护中 |
 | [Cap'n Web](https://blog.cloudflare.com/capn-web/) | **黑科技**。高性能 RPC 协议，为现代 Web 设计。 |  | 官方 |
@@ -162,3 +168,13 @@ Cloudflare 的基础设施建立在庞大的全球网络之上，利用 **Anycas
 | [Cloudflare Workers 优秀项目收集](https://igdux.com/workers) | 一个长期更新的精选项目博客文章。 | 博客 |
 | [Prisma with Cloudflare D1](https://www.prisma.io/docs/orm/overview/databases/cloudflare-d1) | 官方教程：如何使用 Prisma ORM 操作 D1 数据库。 | 教程 |
 | [Turnstile](https://www.cloudflare.com/zh-cn/products/turnstile/) | 彻底告别繁琐的图形验证码，Cloudflare 免费的 CAPTCHA 替代品。 | 产品 |
+
+## 📚 深度参考 (Deep Dives)
+
+为了更深入地了解 Cloudflare 生态系统，请参阅以下精简指南：
+
+*   **[开发工具链 (Toolchains)](docs/toolchains.md)**: AI SDK、CLI 工具及核心平台组件。
+*   **[网页框架与脚手架 (Frameworks)](docs/frameworks.md)**: Hono、Astro 及各类边缘原生启动模版。
+*   **[基础设施详解 (Infrastructure)](docs/infrastructure.md)**: 全球网络架构、Anycast 路由及边缘计算规模。
+*   **[热门项目展示 (Showcase)](docs/showcase.md)**: 社交媒体上的热门原型与实验性技术。
+*   **[聊天机器人开发 (Chatbots)](docs/chatbots.md)**: Discord 与 Telegram 机器人的快速上手指南。
